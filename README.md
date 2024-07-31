@@ -53,7 +53,7 @@ The landing page is built using React components, each responsible for a specifi
 2. **Header**: The navigation bar component, containing the Medium logo and navigation links.
 3. **Footer**: The footer component, containing links to important resources and information.
 
-## Screenshots of the Dynamic Form UI
+## Screenshots
 
 - On a large screen
 
@@ -63,14 +63,13 @@ The landing page is built using React components, each responsible for a specifi
 
 - On a small screen
 
-
 <br>
 
 <img src="./img/Screenshot-Small-Screen.jpeg" height="350px" alt="Small" title="Small Screen">
 
 ## Live Demo
 
-Check out the live demo [here](https://dynamic-form-topaz.vercel.app/).
+Check out the live demo [here](https://medium-landing-page-six.vercel.app/).
 
 ## Reflection
 
