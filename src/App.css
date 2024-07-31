@@ -1,0 +1,132 @@
+.hero-title {
+  font-family: "Jomolhari", sans-serif;
+}
+
+.brand-logo {
+  height: 50px;
+  width: auto;
+  margin-left: 0 15px 0 15px;
+}
+
+.header-nav {
+  align-items: center;
+}
+
+body {
+  background-color: #f7f4ed;
+}
+
+.gold-strip {
+  padding: 12px 12px;
+  background: linear-gradient(90deg, #f9eba5, #ffbb16);
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  color: black;
+
+  a {
+    color: black;
+  }
+}
+
+.landing-image {
+  width: 360px;
+  height: 445px;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  font-size: small;
+}
+
+.membership {
+  text-decoration: underline;
+  color: black;
+  align-items: center;
+  font-size: medium;
+}
+
+footer {
+  border-top: solid 1px black;
+  background-color: #f7f4ed;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.txt-grey {
+  padding: 20px 20px;
+  a {
+    color: gray;
+  }
+}
+
+.btn-get-started {
+  background-color: rgb(38, 38, 38);
+  color: white;
+  border: solid 1px white;
+  border-radius: 70px;
+}
+
+.btn-get-started:hover {
+  background-color: black;
+  color: white;
+  border: solid 1px white;
+}
+
+.btn-black {
+  background-color: rgb(38, 38, 38);
+  color: white;
+  border: solid 1px white;
+  border-radius: 70px;
+}
+
+.btn-black:hover {
+  background-color: black;
+  color: white;
+  border: solid 1px white;
+}
+
+/* Style for the button on large screens and smaller */
+@media (max-width: 800px) {
+  .btn-black {
+  background-color: rgb(0, 185, 0);
+  color: white;
+  border: solid 1px white;
+  border-radius: 70px;
+}
+
+.btn-black:hover {
+  background-color: green;
+  color: white;
+  border: solid 1px white;
+}
+
+.landing-image {
+  display: none;
+}
+
+/* For the Footer */
+.footer{
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.txt-grey {
+  padding: 20px 20px;
+  a {
+    color: white;
+  }
+  a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+}
