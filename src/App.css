@@ -17,7 +17,7 @@ body {
 }
 
 .gold-strip {
-  padding: 12px 12px;
+  padding-top: 12px;
   background: linear-gradient(90deg, #f9eba5, #ffbb16);
   border-top: solid 1px black;
   border-bottom: solid 1px black;
@@ -43,9 +43,7 @@ a {
 
 .membership {
   text-decoration: underline;
-  color: black;
   align-items: center;
-  font-size: medium;
 }
 
 footer {

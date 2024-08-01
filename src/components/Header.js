@@ -18,10 +18,7 @@ function Header() {
           </a>
 
           {/* Nabar Links */}
-          <div
-            className="text-center"
-            id="navbarSupportedContent"
-          >
+          <div className="text-center" id="navbarSupportedContent">
             {/* List */}
             <ul className="navbar-nav navbar-expand ms-auto mb-2 nav-list gap-2 justify-content-center align-items-center d-flex flex-row">
               {/* Our Story */}
@@ -81,16 +78,19 @@ function Header() {
       </header>
 
       <div className="gold-strip d-flex justify-content-center align-content-center">
-        <span>
-          <span class="fw-semibold">Be part of a better internet.</span>
-          <a
-            class="fw-normal mx-2 membership"
-            rel="noopener follow"
-            href="https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fplans%3FisOnboardingUpsell%3D1"
-          >
-            Get 20% off membership for a limited time
-          </a>
-        </span>
+        <p className="d-flex flex-wrap align-items-center">
+          <span className="fw-semibold fs-6 mx-2">
+            Be part of a better internet.
+          </span>
+          <span className="fw-normal fs-6 mx-2 membership">
+            <a
+              rel="noopener follow"
+              href="https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fplans%3FisOnboardingUpsell%3D1"
+            >
+              Get 20% off membership for a limited time
+            </a>
+          </span>
+        </p>
       </div>
     </div>
   );
